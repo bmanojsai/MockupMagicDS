@@ -1,9 +1,10 @@
 {
   "name": "mockupmagic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "main": "src/index.ts",
   "types": "dist/index.d.ts",
+  "files": ["src", "dist"],
   "scripts": {
     "build-ts": "tsc -p tsconfig.json",
     "android": "react-native run-android",

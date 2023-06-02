@@ -7,3 +7,20 @@ node_modules
 
 # Runtime data
 tmp
+
+# Exclude unnecessary files and folders
+android/
+ios/
+tsconfig.json
+.eslintrc
+babel.config.js
+.prettierrc.js
+.watchmanconfig
+metro.config.js
+__tests__
+.bundle/
+.gitignore
+.npmignore
+App.tsx
+app.json
+Gemfile
