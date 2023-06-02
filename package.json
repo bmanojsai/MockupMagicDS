@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "main": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build-ts" : "tsc -p tsconfig.json",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
